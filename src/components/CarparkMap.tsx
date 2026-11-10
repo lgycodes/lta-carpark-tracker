@@ -12,7 +12,10 @@ interface CarparkMapProps {
   vehicleType: 'car' | 'motorcycle' | 'heavy';
 }
 
-const ONEMAP_TILE_URL = 'https://www.onemap.gov.sg/maps/json/raster/v4/Default/{z}/{x}/{y}.png';
+// Singapore Land Authority (SLA) OneMap Official Tile Configuration
+// Endpoint as documented at: https://www.onemap.gov.sg/apidocs/maps
+const ONEMAP_TILE_URL = 'https://www.onemap.gov.sg/maps/tiles/Default/{z}/{x}/{y}.png';
+const ONEMAP_HD_TILE_URL = 'https://www.onemap.gov.sg/maps/tiles/Default_HD/{z}/{x}/{y}.png';
 const ONEMAP_ATTRIBUTION = '<img src="https://www.onemap.gov.sg/web-assets/images/logo/om_logo.png" style="height:20px;width:20px;"/>&nbsp;<a href="https://www.onemap.gov.sg/" target="_blank" rel="noopener noreferrer">OneMap</a>&nbsp;&copy;&nbsp;contributors&nbsp;&#124;&nbsp;<a href="https://www.sla.gov.sg/" target="_blank" rel="noopener noreferrer">Singapore Land Authority</a>';
 
 // Bounds strictly for Singapore
