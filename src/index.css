@@ -30,3 +30,28 @@
   font-family: 'Plus Jakarta Sans', system-ui, sans-serif !important;
   z-index: 10;
 }
+
+/* OneMap Singapore official attribution control styling */
+.leaflet-control-attribution {
+  background: rgba(255, 255, 255, 0.94) !important;
+  backdrop-filter: blur(6px) !important;
+  padding: 4px 8px !important;
+  border-radius: 6px 0 0 0 !important;
+  border-top: 1px solid rgba(226, 232, 240, 0.8) !important;
+  border-left: 1px solid rgba(226, 232, 240, 0.8) !important;
+  font-size: 11px !important;
+  color: #475569 !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+.leaflet-control-attribution img {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  margin-right: 2px !important;
+}
+
+.leaflet-control-attribution a {
+  color: #047857 !important;
+  text-decoration: underline !important;
+  font-weight: 500 !important;
+}
