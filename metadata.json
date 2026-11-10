@@ -1,0 +1,6 @@
+{
+  "name": "ParkSG — Singapore Real-Time Carpark Tracker",
+  "description": "Real-time car park lot availability, gantry rates, height clearances, and live tracking across Singapore HDB, URA, LTA, and commercial carparks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
